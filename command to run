@@ -1,0 +1,83 @@
+ 1. Get Your Gemini AI Studio API Key
+Visit: https://aistudio.google.com
+
+Log in → Click “Get API Key”
+
+Click “Create API Key” or “Use existing project”
+
+Copy and save the API key
+
+🔌 2. Connect to MCP Servers (via Pipedream)
+Visit the following MCP server links:
+
+YouTube: YouTube Data MCP Server
+
+Google Drive: Google Drive MCP Server
+
+Notion: Notion MCP Server
+
+Sign in with Google → Authorize → Copy server URL
+
+🛠️ 3. Project Setup Instructions
+🧰 Prerequisites
+Python 3.10+
+
+Git installed
+
+Cursor IDE or any Python IDE
+
+🧾 Setup Steps with Commands
+📁 Step 1: Navigate to Home Directory (Optional)
+bash
+Copy
+Edit
+cd ~
+🔽 Step 2: Clone or Download the Repo
+Option A: Git clone (recommended)
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/learning-path-generator.git
+cd learning-path-generator
+Option B: ZIP method
+
+Download ZIP from GitHub
+
+Extract it
+
+Open the folder
+
+🧭 Step 3: Open in Cursor IDE
+Open Cursor → File → Open Folder → Select the project directory
+
+🧪 Step 4: Create a Virtual Environment
+bash
+Copy
+Edit
+python -m venv venv
+▶️ Step 5: Activate the Virtual Environment
+On Windows (PowerShell):
+
+bash
+Copy
+Edit
+.\venv\Scripts\Activate
+On macOS/Linux:
+
+bash
+Copy
+Edit
+source venv/bin/activate
+You should now see: (venv) in your terminal
+
+📦 Step 6: Install Required Python Packages
+bash
+Copy
+Edit
+pip install -r requirements.txt
+🚀 Step 7: Run the Streamlit App
+bash
+Copy
+Edit
+streamlit run app.py
